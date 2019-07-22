@@ -28,7 +28,7 @@ int multiply(char *num1, char *num2)
 		printf("\n----Not Enough Memory !!!----\n");
 		return 2;
 	}
-    //setting initial values to 0
+        //setting initial values to 0
 	for (int i = len-1; i >= 0; i--)
 	{
 	    result[i] = 0;
